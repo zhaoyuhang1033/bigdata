@@ -1,13 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import './big-screen.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <div class="big-screen"></div>
   );
 }
 
